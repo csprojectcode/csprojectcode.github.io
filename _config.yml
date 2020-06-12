@@ -13,11 +13,11 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Hyperspectral Object Tracking Challenge"
 email: "fcxiong@njust.edu.cn"
 description: "Hyperspectral Object Tracking Challenge"
-baseurl: "/mht"
-url: "https://bearshng.github.io"
+baseurl: ""
+url: "https://csprojectcode.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
-googleAnalyticsSiteUrl: "https://bearshng.github.io"
+googleAnalyticsSiteUrl: "https://csprojectcode.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
