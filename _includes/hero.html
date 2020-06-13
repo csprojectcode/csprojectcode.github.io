@@ -1,12 +1,14 @@
 <!--Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}'); filter:brightness(0.9);">
     {% include navigation.html %}
     <div class="content-wrapper">
     <div class="jumbotron">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
             <!-- {% assign heroText = site.heroTitle | split:"<typeout>" %} -->
             <h1>Hyperspectral Object Tracking Challenge</h1>
+            <br/>
             <p>{{ site.eventDate }}</p>
+             <br/>
              <p>{{ site.eventPlace }}</p>
             <!-- {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
