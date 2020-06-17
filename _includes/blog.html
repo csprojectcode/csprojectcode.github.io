@@ -185,7 +185,24 @@ table.dataintable tr:nth-child(even) {
                     </table>                                                                      
                     </article>                   
 
-
+              <article class="row post">
+                       <h5>Protocols:</h5>    
+                       <p class="post-body">
+                      <ul>
+                        <li>The use of the training set is optional.</li>
+                        <li>Tracking starts from the first frame of the sequence. The bounding box in the first frame are used to initialize the location of tracking. Single object tracking is expected.</li>
+                        <li>The same model hyper-parameters shall be used for all the sequences.
+                        </li>
+                        <li>The tracking results contain a sequence of bounding boxes for each frame.
+                        </li>
+                      </ul>
+                       </p>
+                   <!--  </article>
+                    <article class="row post"> -->
+                       <h5></h5>
+                         <h5 style="">Evaluation Metrics</h5>          
+                        <p class="post-body">Precision plot, success plot and area under curve (AUC) will be used to calculate the performance of all the trackers. Precision plot records the fractions of frames whose estimated location is within a given distance threshold to the ground truth. The average distance precision rate is reported at a threshold of 20 pixels. Success plot shows the percentages of successful frames whose overlap ratio between the predicted bounding box and ground-truth is larger than a certain threshold varied from 0 to 1. AUC will be caluclated on each success plot. All the results are presented with one-pass evaluation (OPE), i.e., a tracker is run throughout a test sequence with initialization from the ground truth position in the initial frame. Related codes are provided in the source code package. </p>  
+                        </article>                                                                               
                      <article class="row post">
                       <h5>Dataset Link:</h5>      
                         <p class="post-body">The dataset can be accessed via <a>Google Drive</a> or <a>Baidu YunPan</a> Access code: ttge</p>                                               
@@ -201,8 +218,15 @@ table.dataintable tr:nth-child(even) {
                          <p>  Email: fcxiong@njust.edu.cn</p>
                            <p>School of Computer Science and Engineering
                        Nanjing University Science and Technology</p>                                       
-                    </article>                                            
-        </div>        
+                    </article> 
+        </div>
+
+
+        
+
+
+Evaluation Metrics
+       
         </div>
     </div>
 </section>
