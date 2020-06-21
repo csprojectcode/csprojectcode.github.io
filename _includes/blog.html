@@ -1,7 +1,6 @@
 <!-- Begin Blog-->
 <section id="blog" class="blog">
     <div class="content-wrapper text-justify">
-
         <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
             <div class="col-lg-10 col-lg-offset-0">
                   <h4 style="text-align: center; font-size: 35.625px; ">Dataset</h4>
@@ -13,10 +12,8 @@
                        <h5></h5>
                         <h6 style="font-size: 20px;font-style: italic;">Camera Calibration</h6>            
                         <p class="post-body">The camera calibration process involves two steps: dark calibration and spectral correction. Dark calibration aims to remove the influence of noises produced by the camera sensor. It is done by subtracting a dark frame from the captured image, for which the dark frame was captured with lens covered by a cap. The goal of spectral calibration is to reduce the distortion of spectral responses. It is done by applying a sensor-specific spectral correction matrix on the acquired image.</p>
-
                        <h6 style="font-size: 20px;font-style: italic;">Image Registration</h6>            
                         <p class="post-body">The hyperspectral sequences and color sequences are registered to make them describe almost the same scene. This is done by manually selecting matching points in the first frame of both hyperspectral and color videos and then calculating geometrical transformation. The resulted transformation matrix was applied to all subsequent color frames to make alignment with the corresponding hyperspectral frames.</p>     
-
                        <h6 style="font-size: 20px;font-style: italic;">Image Conversion</h6>            
                         <p class="post-body">To ensure fair comparison, the hyperspectral videos were converted to false color videos using CIE color matching functions. This produces strictly spatially aligned hyperspectral and false-color videos.</p>
                      <p class="post-body">
@@ -24,7 +21,7 @@
                     </article>     
                     <article class="row post">
                        <h5>Annotation</h5>      
-                        <p class="post-body">A single upright bounding box is provided for the location of the target object in each frame. The bounding box is represented by the centre location and its height and width. The labels for hyperspectral and color videos were generated independently. The labels for the hyperspectral videos can be used directly on the false-color videos.</p>                                               
+                        <p class="post-body">A single upright bounding box is provided for the location of the target object in each frame. The bounding box is represented by the centre location and its height and width. The labels for hyperspectral and color videos were generated independently. The labels for the hyperspectral videos can be used directly on the false-color videos.</p>                                    
                     </article>    
                      <article class="row post">
                        <h5>Attributes</h5>      
@@ -36,18 +33,17 @@
 
                   <article class="row post">  
 <style>
-          table.dataintable {
+table.dataintable {
     margin-top:15px;
      border:none;
-/*    border-collapse:collapse;
-*//*    border-top:1px solid #3F3F3F; */
     width:100%;
     margin: 0 auto
+    text-align:center;
     }
 
 table.dataintable th {
     vertical-align:baseline;
-    padding:5px 15px 5px 6px;
+    padding:5px 5px 5px 5px;
     background-color:#F5F5F5;
     border:none;
     text-align:center;
@@ -56,12 +52,11 @@ table.dataintable th {
 
 table.dataintable td {
     vertical-align:text-top;
-    padding:6px 15px 6px 6px;
+    padding:6px 6px 6px 6px;
      border:none;
-    }
-
+}
 td img{
-  width: 140px;
+  width: 170px;
   height:100px;
 }
 tr.name td {
@@ -69,21 +64,8 @@ tr.name td {
   font-size: 14pt;
   font-weight: 300;
 }
-/*
-table.dataintable tr:nth-child(odd) {
-    background-color:#F5F5F5;
-}
-
-table.dataintable tr:nth-child(even) {
-    background-color:#fff;
-}*/
     </style>
-<!--      <h5>Dataset</h5>      
- -->    <table width="95%" class="dataintable" align="center">
-                 <!--        <tr>
-                        <th colspan="3">False-color/Hyperspectral videos</th>
-                        <th colspan="3">Color videos</th>
-                        </tr>     -->                   
+          <table width="95%" class="dataintable" align="center">               
                         <tr>
                         <td class="tracker"><img src="/img/dataset/ball.jpg"/></td>
                         <td><img src="/img/dataset/basketball.jpg"/></td>
@@ -181,8 +163,8 @@ table.dataintable tr:nth-child(even) {
                         <td>toy2</td>
                          <td>truck</td>                        
                         <td>worker</td>
-                        </tr>                                                                            
-                    </table>                                                                      
+                        </tr>                
+                    </table>           
                     </article>                   
 
               <article class="row post">
@@ -197,8 +179,6 @@ table.dataintable tr:nth-child(even) {
                         </li>
                       </ul>
                        </p>
-                   <!--  </article>
-                    <article class="row post"> -->
                        <h5></h5>
                          <h5 style="">Evaluation Metrics</h5>          
                         <p class="post-body">Precision plot, success plot and area under curve (AUC) will be used to calculate the performance of all the trackers. Precision plot records the fractions of frames whose estimated location is within a given distance threshold to the ground truth. The average distance precision rate is reported at a threshold of 20 pixels. Success plot shows the percentages of successful frames whose overlap ratio between the predicted bounding box and ground-truth is larger than a certain threshold varied from 0 to 1. AUC will be caluclated on each success plot. All the results are presented with one-pass evaluation (OPE), i.e., a tracker is run throughout a test sequence with initialization from the ground truth position in the initial frame. Related codes are provided in the source code package. </p>  
@@ -215,9 +195,9 @@ table.dataintable tr:nth-child(even) {
                     <article class="row post">
                        <h5>Technical Support:</h5>       
                         <p class="post-body">Fengchao Xiong 
-                         <p>  Email: fcxiong@njust.edu.cn</p>
-                           <p>School of Computer Science and Engineering
-                       Nanjing University Science and Technology</p>                                       
+                        <p>School of Computer Science and Engineering,
+                       Nanjing University Science and Technology</p>
+                         <p>Email: fcxiong@njust.edu.cn</p>                              
                     </article> 
         </div>
        
