@@ -1,7 +1,7 @@
 <!-- Begin Schedule Section -->
 <section id="schedule" class="schedule">
    <div class="content-wrapper text-justify">
-<div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">
+<div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-0 col-sm-offset-2">
             <div class="col-lg-10 col-lg-offset-0">
                   <h4 style="text-align: center; font-size: 35.625px; ">Baseline Results</h4>
                     <article class="row post">
@@ -55,60 +55,61 @@ table.dataintable tr:nth-child(even) {
                         </tr>
                         <tr>
                         <td class="tracker"><a href="#xiong_1">MHT [1]</a></td>
-                        <td>0.6026</td>
-                        <td>0.9029</td>
+                        <td>0.5855</td>
+                        <td>0.8803</td>
                         <td>/</td>
                         <td>/</td>
                         </tr>                       
                         <tr>
                         <td class="tracker"><a href="#Galoogahi_1">BACF [2] </a></td>
-                        <td>0.5595</td>
-                        <td>0.8356</td>
-                        <td>0.5318</td>
-                        <td>0.7811</td>
+                        <td>0.5440</td>
+                        <td>0.8165</td>
+                        <td>0.5315</td>
+                        <td>0.7917</td>
                         </tr>  
                         <tr>
                         <td class="tracker"><a href="#fDSST"> fDSST [3]</a></td>
-                        <td>0.4718</td>
-                        <td>0.7434</td>
-                        <td>0.4927</td>
-                        <td>0.7491</td>
+                        <td>0.4416</td>
+                        <td>0.7047</td>
+                        <td>0.4639</td>
+                        <td>0.7274</td>
                         </tr>   
                         <tr>
                         <td class="tracker"><a href="#KCF">KCF [4]</a></td>
-                        <td>0.4228</td>
-                        <td>0.6028</td>
+                        <td>0.4078</td>
+                        <td>0.5834</td>
                         <td>0.3769</td>
-                        <td>0.6098</td>
+                        <td>0.6117</td>
                         </tr>
                         <tr>
+                        	    
                         <td class="tracker"><a href="#VITAL">VITAL [5]</a></td>
-                        <td>0.575</td>
-                        <td>0.880</td>
-                        <td>0.587</td>
-                        <td>0.835</td>
+						<td>0.6047</td>
+                        <td>0.9453</td>                        
+                        <td>0.5759</td>
+                        <td>0.8599</td>
                         </tr>
                         <tr>
                         <td class="tracker"><a href="#CCOT">C-COT [6]</a></td>
-                        <td>0.5591</td>
-                        <td>0.8326</td>
-                        <td>0.5775</td>
-                        <td>0.8565</td>
+                        <td>0.5572</td>
+                        <td>0.8692</td>
+                        <td>0.6020</td>
+                        <td>0.8971</td>
                         </tr>   
                         <tr>
                         <td class="tracker"><a href="#CFNet">CFNet [7]</a></td>
-                        <td>0.8780</td>
-                        <td>0.809</td>
-                        <td>0.5590</td>
-                        <td>0.8490</td>
+                        <td>0.5426</td>
+                        <td>0.8756</td>
+                        <td>0.5596</td>
+                        <td>0.8648</td>
                         </tr>   
-                        <tr>
+                     <!--    <tr>
                         <td class="tracker"><a href="#ECO">ECO [8]</a></td>
                         <td>0.5591</td>
                         <td>0.8326</td>
                         <td>0.5775</td>
                         <td>0.8565</td>
-                        </tr>                           
+                        </tr>   -->                         
                     </table>  
         <h6 style="white-space: normal; margin-top: 30px;"><span style="text-indent: 0; ">References</span>
              </h6>
@@ -117,7 +118,7 @@ table.dataintable tr:nth-child(even) {
             <ul>
             <p style="white-space: normal; text-indent: 0em;">
             <p name="xiong_1">[1] F. Xiong, J. Zhou and Y. Qian, "Material Based Object Tracking in Hyperspectral Videos,"
-            IEEE Trans. Image Process., vol. 29, no. 1, pp. 3719-3733, 2020. <a href="" style="font-weight: 500;">code</a></p>
+            IEEE Trans. Image Process., vol. 29, no. 1, pp. 3719-3733, 2020. <a href="/assets/code/MHT_release.zip" style="font-weight: 500;">code</a></p>
             </p>
              
             <p style="white-space: normal; text-indent: 0em;">
@@ -150,13 +151,13 @@ table.dataintable tr:nth-child(even) {
             convolution operators for visual tracking,” in Proc. Eur. Conf. Comput. Vis. (ECCV), 2016, pp. 472–488.  <a href="https://github.com/martin-danelljan/Continuous-ConvOp" style="font-weight: 500;">code</a></p>
             </p>
              
-            <p style="white-space: normal; text-indent: 0em;">
+        <!--     <p style="white-space: normal; text-indent: 0em;">
             <p name="ECO">[7] M. Danelljan, G. Bhat, F. S. Khan, and M. Felsberg, “ECO: Efficient convolution operators for tracking.”
             in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), 2017, pp. 6638–6646. <a href="https://github.com/martin-danelljan/ECO" style="font-weight: 500;">code</a></p>
-            </p>
+            </p> -->
              
             <p style="white-space: normal; text-indent: 0em;">
-                        <p name="CFNet">[8] J. Valmadre, L. Bertinetto, J. Henriques, A. Vedaldi, and P. H. S. Torr, “End-to-end representation
+                        <p name="CFNet">[7] J. Valmadre, L. Bertinetto, J. Henriques, A. Vedaldi, and P. H. S. Torr, “End-to-end representation
             learning for correlation filter based tracking,” in Proc. IEEE Conf. Comput. Vis. Pattern Recognit. (CVPR), 2017, pp. 2805–2813. <a href="https://github.com/bertinetto/cfnet" style="font-weight: 500;">code</a></p>
             </p>
             </div>                                                            

@@ -112,16 +112,15 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
  -
   title: "Contacts"
   links:
-   - {link: "mailto:fcxiong@njust.edu.cn", text: "fcxiong@njust.edu.cn"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
+   - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
+ # -
+ #  title: "FAQ"
+ #  links:
+ #   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
