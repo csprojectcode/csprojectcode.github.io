@@ -8,12 +8,12 @@
 	</div>
 	<div class="row" style="margin-left: 20%">
 			{% for block in site.footerBlocks %}
-	        {% assign colWidth = 10 | divided_by: forloop.length %}
-			<div class="col-md-{{ colWidth }} col-xs-6" >
+	        {% assign colWidth = 8 | divided_by: forloop.length %}
+			<div class="col-md-{{ colWidth }} col-xs-6"  >
 				<!-- <h5>{{ block.title }}</h5> -->
 				<ul>
 					{% for linkElement in block.links %}
-					 <li> <a href="{{ linkElement.link }}" target="_blank"><img src="{{ linkElement.img }}" height="100px"  /></a></li>
+					 <li> <a href="{{ linkElement.link }}" target="_blank"><img src="{{ linkElement.img }}" height="100px"/></a></li>
 					<!-- <li><a href="{% if linkElement.permalink != null %} {{ linkElement.permalink | prepend: site.baseurl }} {% else %} {{ linkElement.link }} {% endif %}" {% if linkElement.link != null %}target="_blank"{% endif %}>{{ linkElement.text }}</a></li> -->
 					{% endfor %}
 				</ul>

@@ -112,11 +112,11 @@ footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
+   - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
  -
   title: "Contacts"
   links:
-   - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
+   - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
  # -
  #  title: "FAQ"
  #  links:
