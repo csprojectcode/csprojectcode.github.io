@@ -3,37 +3,11 @@
     <div class="content-wrapper text-justify">
         <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-0 col-sm-offset-2">
             <div class="col-lg-10 col-lg-offset-0">
-                  <h4 style="text-align: center; font-size: 35.625px; ">Dataset</h4>
+                 <!--  <h4 style="text-align: center; font-size: 35.625px; ">Dataset</h4> -->
                     <article class="row post">
                         <p class="post-body">The dataset used in this contest was acquired using a XIMEA snapshot VIS camera. The vides were captured at 25 frames per second (FPS). Each frame was originally captured in 2D with 16 bands arranged in a mosaic mode. Each frame is then converted to 3D with the first two dimensions index the location of each pixel, and the third dimension indexes the band number (code provided). The 16 bands cover the range from 470nm to 620nm, and each band image originally consists of 512×256 pixels. RGB videos were also acquired at the same frame rate in a view point very close to the hyperspectral videos. False-color videos generated from the hyperspectral videos are also provided.</p>
                     </article>
-                    <article class="row post">
-                       <h5 style="">Preprocessing</h5>  
-                       <h5></h5>
-                        <h6 style="font-size: 20px;font-style: italic;">Camera Calibration</h6>            
-                        <p class="post-body">The camera calibration process involves two steps: dark calibration and spectral correction. Dark calibration aims to remove the influence of noise produced by the camera sensor. It is done by subtracting a dark frame from the captured image, for which the dark frame was captured with lens covered by a cap. The goal of spectral calibration is to reduce the distortion of spectral responses. It is done by applying a sensor-specific spectral correction matrix on the measurement in each pixel. The 16 band images of the corrected hyperspectral data cube are saved as 2D frames with the 16 bands arranged again in a mosaic mode. 
-                        </p>
-                       <h6 style="font-size: 20px;font-style: italic;">Image Registration</h6>            
-                        <p class="post-body">The hyperspectral sequences and color sequences are registered to make them describe almost the same scene. This is done by manually selecting matching points in the first frame of both hyperspectral and color videos and then calculating geometrical transformation. The resulted transformation matrix was applied to all subsequent color frames to make alignment with the corresponding hyperspectral frames.</p>     
-                       <h6 style="font-size: 20px;font-style: italic;">Image Conversion</h6>            
-                        <p class="post-body">To ensure fair comparison, the hyperspectral videos were converted to false color videos using CIE color matching functions. This produces strictly spatially aligned hyperspectral and false-color videos.</p>
-
-                     <p class="post-body">
-                     For details on the above steps, please refer to: F. Xiong, J. Zhou, and Y. Qian. "Material based object tracking in hyperspectral videos", IEEE Trans. Image Process., vol. 29, no. 1, pp. 3719-3733, 2020.</p>                                               
-                    </article>     
-                    <article class="row post">
-                       <h5>Annotation</h5>      
-                        <p class="post-body">A single upright bounding box is provided for the location of the target object in each frame. The bounding box is represented by the centre location and its height and width. The labels for hyperspectral and color videos were generated independently. The labels for the hyperspectral videos can be used directly on the false-color videos.</p>                                    
-                    </article>    
-                     <article class="row post">
-                       <h5>Attributes</h5>      
-                        <p class="post-body">The whole dataset contains 40 sets of videos for training and 35 sets of videos for testing. Every video is labelled with associated challenging factors out of eleven attributes, including illumination variation (IV), scale variation (SV), occlusion (OCC), deformation (DEF), motion blur (MB), fast motion (FM), in-plane rotation (IPR), out-of-plane rotation (OPR), out-of-view (OV), background clutters (BC), and low resolution (LR).</p>                                               
-                    </article>    
-        </div>
-            <div class="col-lg-10 col-lg-offset-0">   
-                 <h4 style="text-align: center; font-size: 35.625px; ">Dataset and Source Code Links</h4>
-
-                  <article class="row post">  
+  <article class="row post">  
 <style>
 table.dataintable {
     margin-top:15px;
@@ -169,6 +143,37 @@ tr.name td {
                     </table>           
                     </article>                   
 
+                        <article class="row post">
+                        <h5>Dataset and Source Code Links</h5>
+                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a href="https://drive.google.com/drive/folders/1aT4xOxRT9r7gD4dl4FfugSNr5NMCXwUH?usp=sharing">Google Drive</a> or <a href="https://pan.baidu.com/s/1FY2L6L9SDKw-V-bUkuosSA">Baidu YunPan</a> Access code: n616</p>
+                         <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>                                                
+                    </article>                        
+                    <article class="row post">
+                       <h5 style="">Preprocessing</h5>  
+                       <h5></h5>
+                        <h6 style="font-size: 20px;font-style: italic;">Camera Calibration</h6>            
+                        <p class="post-body">The camera calibration process involves two steps: dark calibration and spectral correction. Dark calibration aims to remove the influence of noise produced by the camera sensor. It is done by subtracting a dark frame from the captured image, for which the dark frame was captured with lens covered by a cap. The goal of spectral calibration is to reduce the distortion of spectral responses. It is done by applying a sensor-specific spectral correction matrix on the measurement in each pixel. The 16 band images of the corrected hyperspectral data cube are saved as 2D frames with the 16 bands arranged again in a mosaic mode. 
+                        </p>
+                       <h6 style="font-size: 20px;font-style: italic;">Image Registration</h6>            
+                        <p class="post-body">The hyperspectral sequences and color sequences are registered to make them describe almost the same scene. This is done by manually selecting matching points in the first frame of both hyperspectral and color videos and then calculating geometrical transformation. The resulted transformation matrix was applied to all subsequent color frames to make alignment with the corresponding hyperspectral frames.</p>     
+                       <h6 style="font-size: 20px;font-style: italic;">Image Conversion</h6>            
+                        <p class="post-body">To ensure fair comparison, the hyperspectral videos were converted to false color videos using CIE color matching functions. This produces strictly spatially aligned hyperspectral and false-color videos.</p>
+
+                     <p class="post-body">
+                     For details on the above steps, please refer to: F. Xiong, J. Zhou, and Y. Qian. "Material based object tracking in hyperspectral videos", IEEE Trans. Image Process., vol. 29, no. 1, pp. 3719-3733, 2020.</p>                                               
+                    </article>     
+                    <article class="row post">
+                       <h5>Annotation</h5>      
+                        <p class="post-body">A single upright bounding box is provided for the location of the target object in each frame. The bounding box is represented by the centre location and its height and width. The labels for hyperspectral and color videos were generated independently. The labels for the hyperspectral videos can be used directly on the false-color videos.</p>                                    
+                    </article>    
+                     <article class="row post">
+                       <h5>Attributes</h5>      
+                        <p class="post-body">The whole dataset contains 40 sets of videos for training and 35 sets of videos for testing. Every video is labelled with associated challenging factors out of eleven attributes, including illumination variation, scale variation, occlusion , deformation, motion blur, fast motion, in-plane rotation, out-of-plane rotation, out-of-view , background clutters, and low resolution.</p>                                               
+                    </article>    
+        </div>
+            <div class="col-lg-10 col-lg-offset-0">   
+
+                
               <article class="row post">
                        <h5>Protocols:</h5>    
                        <p class="post-body">
@@ -185,11 +190,7 @@ tr.name td {
                          <h5 style="">Evaluation Metrics</h5>          
                         <p class="post-body">Precision plot, success plot and area under curve (AUC) will be used to calculate the performance of all the trackers. Precision plot records the fractions of frames whose estimated location is within a given distance threshold to the ground truth. The average distance precision rate is reported at a threshold of 20 pixels. Success plot shows the percentages of successful frames whose overlap ratio between the predicted bounding box and ground-truth is larger than a certain threshold varied from 0 to 1. AUC will be caluclated on each success plot. All the results are presented with one-pass evaluation (OPE), i.e., a tracker is run throughout a test sequence with initialization from the ground truth position in the initial frame. Related codes are provided in the source code package. </p>  
                         </article>                                                                               
-                     <article class="row post">
-                        <h5>Contest Information</h5>
-                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a href="https://drive.google.com/drive/folders/1aT4xOxRT9r7gD4dl4FfugSNr5NMCXwUH?usp=sharing">Google Drive</a> or <a href="https://pan.baidu.com/s/1FY2L6L9SDKw-V-bUkuosSA">Baidu YunPan</a> Access code: n616</p>
-                         <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>                                                
-                    </article>    
+          
 
               <!--       <article class="row post">
                        <h5>Source Code Link:</h5>       
