@@ -1,16 +1,16 @@
-<!--Begin Hero Section -->
-<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}'); filter:brightness(0.9);">
+<!-- Begin Hero Section -->
+<section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
     {% include navigation.html %}
     <div class="content-wrapper">
     <div class="jumbotron">
         <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
-            <!-- {% assign heroText = site.heroTitle | split:"<typeout>" %} -->
+            {% assign heroText = site.heroTitle | split:"<typeout>" %}
             <h1>Hyperspectral Object Tracking Challenge</h1>
             <br/>
             <p>{{ site.eventDate }}</p>
             <br/>
              <p>{{ site.eventPlace }}</p>
-     <!--        {% for button in site.heroButtons %}
+          <!--   {% for button in site.heroButtons %}
             <a href="{% if button.permalink != null %} {{ button.permalink | prepend: site.baseurl }} {% else %} {{ button.link }} {% endif %}" class="btn btn-primary waves-effect waves-button waves-light waves-float" {% if button.link != null %}target="_blank"{% endif %}>{{ button.text }}</a>
             {% endfor %} -->
         </div>
@@ -19,16 +19,7 @@
         <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
             <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
         </svg>
-    </a>  
-    <!-- <div  class="explore2" style="padding-top: 70px">
-    	   <a href="http://www.ieee-whispers.com/" target="_blank"> <img src="/img/sprites/whispers.jpg" height="100px" style="margin-right: 100px" /></a>
-        <a href="http://www.spectroexpo.com/" target="_blank"><img src="/img/sprites/spectro.gif" height="100px"  /></a>
-            
-         
-    </div> -->
-<!--     <a  class="explore2">
-       
-    </a>    --> 
+    </a>
     </div>
 </section>
-<!-- End Hero Section
+<!-- End Hero Section -->
