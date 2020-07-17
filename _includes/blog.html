@@ -5,7 +5,7 @@
             <div class="col-lg-10 col-lg-offset-0">
                  <!--  <h4 style="text-align: center; font-size: 35.625px; ">Dataset</h4> -->
                     <article class="row post">
-                        <p class="post-body">The dataset used in this contest was acquired using a XIMEA snapshot VIS camera. The vides were captured at 25 frames per second (FPS). Each frame was originally captured in 2D with 16 bands arranged in a mosaic mode. Each frame is then converted to 3D with the first two dimensions index the location of each pixel, and the third dimension indexes the band number (code provided). The 16 bands cover the range from 470nm to 620nm, and each band image originally consists of 512×256 pixels. RGB videos were also acquired at the same frame rate in a view point very close to the hyperspectral videos. False-color videos generated from the hyperspectral videos are also provided. The first frames of testing dataset are  as follows:</p>
+                        <p class="post-body">The dataset used in this contest was acquired using a XIMEA snapshot VIS camera. The videos were captured at 25 frames per second (FPS). Each frame was originally captured in 2D with 16 bands arranged in a mosaic mode. Each frame is then converted to 3D with the first two dimensions index the location of each pixel, and the third dimension indexes the band number (code provided). The 16 bands cover the range from 470nm to 620nm, and each band image originally consists of 512×256 pixels. RGB videos were also acquired at the same frame rate in a view point very close to the hyperspectral videos. False-color videos generated from the hyperspectral videos are also provided. The first frames of testing dataset are  as follows:</p>
                     </article>
   <article class="row post">  
 <style>
@@ -147,7 +147,11 @@ tr.name td {
                         <h5>Dataset and Source Code Links</h5>
                         <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/1aT4xOxRT9r7gD4dl4FfugSNr5NMCXwUH?usp=sharing" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a 
                             id= "baidu" href="https://pan.baidu.com/s/1FY2L6L9SDKw-V-bUkuosSA" onclick="_hmt.push(['_trackEvent', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: n616</p>
-                         <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>                                                
+                         <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>
+
+                         <p class="post-body" style="color: red"><strong>The <i>car3</i>, <i>basketball</i> sequences in training the <i>car3</i> sequence in testing are corrected.</strong></p>
+
+
                     </article>                        
                     <article class="row post">
                        <h5 style="">Preprocessing</h5>  
