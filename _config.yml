@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Hyperspectral Object Tracking Challenge"
+title: "Hyperspectral Object Tracking Challenge 2022"
 email: "fcxiong@njust.edu.cn"
-description: "Hyperspectral Object Tracking Challenge"
+description: "Hyperspectral Object Tracking Challenge 2022"
 baseurl: ""
 url: "https://www.hsitracking.com"
 permalink: "/blog/:title"
@@ -56,17 +56,17 @@ rightNavigationButtons:
  - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
 
 # Hero Block
-heroImage: "Amesterdam.jpg"
-heroTitle: "Hyperspectral Object Tracking Challenge"
-eventDate: "Jan 14-Jan 16, 2021"
-eventPlace: "Amsterdam, The Netherlands"
+heroImage: "Roma.jpeg"
+heroTitle: "Hyperspectral Object Tracking Challenge 2022"
+eventDate: "Sept 13-Sept 16, 2022"
+eventPlace: "Rome, Italy"
 typeoutTextValues: '"", ""'
 typeoutFallback: "Season"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
 # typeoutFallback: "Season"
-heroButtons:
- - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
- - {permalink: "/#tickets", text: "Buy tickets"}
+# heroButtons:
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
 aboutTitle: "About Hyperspectral Object Tracking"
@@ -77,10 +77,15 @@ aboutBlock:
 
 # Latest News Block
 latestNewsTitle: "Key Dates"
-
+prizesTitle: "Prizes"
+prizes:
+ - {title: "Second Place", image: "second.png", info: "800 EUR"}
+ - {title: "First Place", image: "first.png", info: "1000 EUR"}
+ - {title: "Third Place", image: "third.png", info: "500 EUR"}
+prizesImage: "award2.jpeg"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
+rockstarSpeakersCount: 6
 rockstarSpeakersTitle: "Organizers"
 rockstarSpeakersButtonText: ""
 # rockstarSpeakersButtonText: "See all speakers"
@@ -89,9 +94,9 @@ rockstarSpeakersButtonText: ""
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "place.png"
-venueSmallImage1: "venue_1.jpg"
-venueSmallImage2: "venue_2.jpg"
+venueBigImage: "venue_roma_1.png"
+venueSmallImage1: "venue_roma_2.jpeg"
+venueSmallImage2: "venue_roma_3.jpeg"
 venueTitle: "Kinopalace Cinema"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
@@ -101,21 +106,21 @@ organizersTitle: "Organizers"
 partnersTitle: "Sponsors"
 partnersC4sponsorsButton: "Become a sponsor"
 
-# Footer
-socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
-footerBlocks:
- -
-  title: "Links"
-  links:
-   - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
- -
-  title: "Contacts"
-  links:
-   - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
+# # Footer
+# socialLinks:
+#  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+#  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+#  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+#  - {permalink: "/feed.xml", icon: "rss"}
+# footerBlocks:
+#  -
+#   title: "Links"
+#   links:
+#    - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
+#  -
+#   title: "Contacts"
+#   links:
+#    - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
  # -
  #  title: "FAQ"
  #  links:

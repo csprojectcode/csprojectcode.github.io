@@ -1,10 +1,13 @@
 - 
   group: "General sponsor"
   elements: 
-    - {name: "Griffith University", description: "Griffith University", link: "http://www.griffith.edu.au", imageUrl: "griffith.png"}
-    - {name: "Helmholtz-Zentrum Dresden-Rossendorf", description: "Helmholtz-Zentrum Dresden-Rossendorf", link: "https://www.hzdr.de/db/Cms?pNid=0", imageUrl: "hzdr.png"}
-    - {name: "Nanjing University of Science and Technology", description: "Nanjing University of Science and Technology", link: "http://english.njust.edu.cn/", imageUrl: "njust.png"}
-    - {name: "Grenoble Institute of Technology", description: "Grenoble Institute of Technology", link: "https://www.grenoble-inp.fr/en", imageUrl: "git.png"}
+    - {name: "Griffith University", width: 20% ,description: "Griffith University", link: "http://www.griffith.edu.au", imageUrl: "griffith.png"}
+    - {name: "Wuhan University", width: 12% ,description: "Wuhan University", link: "https://en.whu.edu.cn/", imageUrl: "whu.png"}    
+    - {name: "Nanjing University of Science and Technology", width: 20% , description: "Nanjing University of Science and Technology", link: "http://english.njust.edu.cn/", imageUrl: "njust.png"}
+    - {name: "Helmholtz-Zentrum Dresden-Rossendorf", width: 20% , description: "Helmholtz-Zentrum Dresden-Rossendorf", link: "https://www.hzdr.de/db/Cms?pNid=0", imageUrl: "hzdr.png"}
+    - {name: "Grenoble Institute of Technology", width: 20% , description: "Grenoble Institute of Technology", link: "https://www.grenoble-inp.fr/en", imageUrl: "git.png"}
+
+
 
 - 
   group: "With support of"
