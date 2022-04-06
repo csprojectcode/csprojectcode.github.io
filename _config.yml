@@ -79,8 +79,8 @@ aboutBlock:
 latestNewsTitle: "Key Dates"
 prizesTitle: "Prizes"
 prizes:
- - {title: "Second Place", image: "second.png", info: "800 EUR"}
- - {title: "First Place", image: "first.png", info: "1000 EUR"}
+ - {title: "Second Place", image: "second.png", info: "1000 EUR"}
+ - {title: "First Place", image: "first.png", info: "1500 EUR"}
  - {title: "Third Place", image: "third.png", info: "500 EUR"}
 prizesImage: "award2.jpeg"
 # Rockstar Speakers Block

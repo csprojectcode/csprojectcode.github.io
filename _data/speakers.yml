@@ -25,21 +25,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
   #   - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
   #   - {name: "github", link: "https://github.com/dmytrodanylyk"}
-- 
-  id: 5
-  name: "Fengchao"
-  surname: "Xiong"
-  company: "Nanjing University of Science and Technology, China"
-  title: "Professor"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: Fengchao.jpg
-  rockstar: true
-  # ribbon: 
-  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  # social: 
-  #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-  #   - {name: "twitter", link: "https://twitter.com/mherych"}
+
 - 
   id: 4
   name: "Yanfei"
@@ -63,6 +49,21 @@
   title: "Program Manager imec Hyperspectral Imaging"
   bio: "Program Manager imec Hyperspectral Imaging"
   thumbnailUrl: wouter.jpeg
+  rockstar: true
+  # ribbon: 
+  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+  # social: 
+  #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
+  #   - {name: "twitter", link: "https://twitter.com/mherych"}
+- 
+  id: 5
+  name: "Fengchao"
+  surname: "Xiong"
+  company: "Nanjing University of Science and Technology, China"
+  title: "Professor"
+  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
+  thumbnailUrl: Fengchao.jpg
   rockstar: true
   # ribbon: 
   #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
