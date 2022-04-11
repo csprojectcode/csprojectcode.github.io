@@ -1,5 +1,5 @@
 - 
-  id: 7
+  id: 1
   name: "Jocelyn"
   surname: "Chanussot"
   company: "Grenoble Institute of Technology, France"
@@ -13,7 +13,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+RomanMazur/"}
   #   - {name: "twitter", link: "http://twitter.com/roman_mazur"}
 - 
-  id: 6
+  id: 2
   name: "Pedram"
   surname: "Ghamisi"
   company: "Helmholtz-Zentrum Dresden-Rossendorf, Germany</br>VasoGnosis, USA"
@@ -27,7 +27,7 @@
   #   - {name: "github", link: "https://github.com/dmytrodanylyk"}
 
 - 
-  id: 4
+  id: 3
   name: "Yanfei"
   surname: "Zhong"
   company: "Wuhan University, China"
@@ -42,7 +42,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
-  id: 3
+  id: 4
   name: "Wouter"
   surname: "Charle"
   company: "Interuniversity Microelectronics Centre, </br> Belgium"
@@ -72,7 +72,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
-  id: 2
+  id: 6
   name: "Jun"
   surname: "Zhou"
   company: "Griffith University, </br> Australia"
