@@ -1,0 +1,135 @@
+# Plugins
+gems:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+
+# Site Settings
+title: "Hyperspectral Object Tracking Challenge 2022"
+email: "fcxiong@njust.edu.cn"
+description: "Hyperspectral Object Tracking Challenge 2022"
+baseurl: ""
+url: "https://www.hsitracking.com"
+permalink: "/blog/:title"
+googleAnalyticsTrackingId: "UA-43643469-5"
+googleAnalyticsSiteUrl: "https://www.hsitracking.com"
+siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
+
+# Organizer Info
+organizerName: "GDG Lviv"
+organizerAlternateName: "Google Developer Group Lviv"
+organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
+organizerEmail: "lviv@gdg.org.ua"
+organizerLogo: "/img/seo/logo2.png"
+organizerLink: "http://lviv.gdg.org.ua/"
+
+# Head
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
+twitterAccount: "@DevFest"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
+# Documents
+c4pUrl: "https://bit.ly/dfua-c4p"
+c4sponsorsUrl: "/assets/GDG_DevFest_Partnership.pdf"
+
+
+# Navigation
+navigationLinks:
+ - {permalink: "/", text: "Home"}
+ # - {permalink: "/hackathon/", text: "Hackathon"}
+ - {permalink: "/contest/", text: "Contest"}
+ - {permalink: "/result/", text: "Results"}
+ # - {permalink: "/speakers/", text: "Speakers"}
+ # - {permalink: "/team/", text: "Team"}
+ # - {permalink: "/logistics/", text: "Logistics"}
+ # - {permalink: "/hackathon/", text: "Hackathon"}
+bottomNavigationLinks:
+ - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
+rightNavigationButtons:
+ - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
+
+# Hero Block
+heroImage: "Roma.jpeg"
+heroTitle: "Hyperspectral Object Tracking Challenge 2022"
+eventDate: "Sept 13-Sept 16, 2022"
+eventPlace: "Rome, Italy"
+typeoutTextValues: '"", ""'
+typeoutFallback: "Season"
+# typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+# typeoutFallback: "Season"
+# heroButtons:
+#  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
+#  - {permalink: "/#tickets", text: "Buy tickets"}
+
+# About Block
+aboutTitle: "About Hyperspectral Object Tracking"
+aboutBlock:
+ - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
+ - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
+ - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+
+# Latest News Block
+latestNewsTitle: "Key Dates"
+prizesTitle: "Prizes"
+prizes:
+ - {title: "Second Place", image: "second.png", info: "1000 EUR"}
+ - {title: "First Place", image: "first.png", info: "1500 EUR"}
+ - {title: "Third Place", image: "third.png", info: "500 EUR"}
+prizesImage: "award2.jpeg"
+# Rockstar Speakers Block
+rockstarSpeakersImage: "rockstar-speakers.jpg"
+rockstarSpeakersCount: 6
+rockstarSpeakersTitle: "Organizers"
+rockstarSpeakersButtonText: ""
+# rockstarSpeakersButtonText: "See all speakers"
+
+
+
+# Venue Block
+venueBlockTitle: "Venue"
+venueBigImage: "venue_roma_1.png"
+venueSmallImage1: "venue_roma_2.jpeg"
+venueSmallImage2: "venue_roma_3.jpeg"
+venueTitle: "Kinopalace Cinema"
+venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
+
+
+# Partners Block
+organizersTitle: "Organizers"
+partnersTitle: "Sponsors"
+partnersC4sponsorsButton: "Become a sponsor"
+
+# # Footer
+# socialLinks:
+#  - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
+#  - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
+#  - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+#  - {permalink: "/feed.xml", icon: "rss"}
+# footerBlocks:
+#  -
+#   title: "Links"
+#   links:
+#    - {link: "http://www.ieee-whispers.com/", img: "/img/sprites/whispers.gif"}
+#  -
+#   title: "Contacts"
+#   links:
+#    - {link: "http://www.spectroexpo.com/", img: "/img/sprites/spectro.gif"}
+ # -
+ #  title: "FAQ"
+ #  links:
+ #   - {permalink: "/cod/", text: "Code of Conduct"}
+
+# Blog
+blogTitle: "Latest news"
+blogCommentsEnabled: true
+discusShortName: "devfestua"
+
+# Speakers List Block
+showSessions: true

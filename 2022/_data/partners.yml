@@ -1,0 +1,35 @@
+- 
+  group: "General sponsor"
+  elements: 
+    - {name: "Griffith University", width: 20% ,description: "Griffith University", link: "http://www.griffith.edu.au", imageUrl: "griffith.png"}
+    - {name: "Nanjing University of Science and Technology", width: 20% , description: "Nanjing University of Science and Technology", link: "http://english.njust.edu.cn/", imageUrl: "njust.png"}
+    - {name: "Wuhan University", width: 12% ,description: "Wuhan University", link: "https://en.whu.edu.cn/", imageUrl: "whu.png"}    
+    - {name: "Helmholtz-Zentrum Dresden-Rossendorf", width: 20% , description: "Helmholtz-Zentrum Dresden-Rossendorf", link: "https://www.hzdr.de/db/Cms?pNid=0", imageUrl: "hzdr.png"}
+    - {name: "Grenoble Institute of Technology", width: 10% , description: "Grenoble Institute of Technology", link: "https://www.grenoble-inp.fr/en", imageUrl: "git.png"}
+    # - {name: "Remote Sensing", width: 0% , description: "Remote Sensing", link: "https://www.mdpi.com/journal/remotesensing/special_issues/5XYEWKIY2R", imageUrl: "remotesensing_partnership-01.png"}
+
+
+    
+
+
+
+- 
+  group: "With support of"
+  elements: 
+    - {name: "IMEC Company", description: "IMEC Company", link: "https://www.imechyperspectral.com/en", imageUrl: "imec.png"}
+    - {name: "Remote Sensing", description: "Remote Sensing", link: "https://www.mdpi.com/journal/remotesensing/special_issues/5XYEWKIY2R", imageUrl: "remotesensing_partnership-01.png"}
+
+    # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
+    # - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
+# - 
+#   group: "Information partners"
+#   elements: 
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+#     - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
+#     - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+#     - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}

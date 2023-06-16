@@ -5,7 +5,8 @@
             <div class="col-lg-10 col-lg-offset-0">
                  <!--  <h4 style="text-align: center; font-size: 35.625px; ">Dataset</h4> -->
                     <article class="row post">
-                        <p class="post-body">The dataset used in this contest was acquired using a XIMEA snapshot VIS camera. The videos were captured at 25 frames per second (FPS). Each frame was originally captured in 2D with 16 bands arranged in a mosaic mode. Each frame is then converted to 3D with the first two dimensions index the location of each pixel, and the third dimension indexes the band number (code provided). The 16 bands cover the range from 470nm to 620nm, and each band image originally consists of 512×256 pixels. RGB videos were also acquired at the same frame rate in a view point very close to the hyperspectral videos. False-color videos generated from the hyperspectral videos are also provided. The first frames of testing dataset are  as follows:</p>
+                        <p class="post-body">The dataset used in this contest was acquired using three XIMEA snapshot cameras including VIS, NIR and RedNIR, which respectively covers 16 bands, 15 bands and 25 bands after calibration.  The videos were captured at 25 frames per second (FPS). Each frame was originally captured in 2D and arranged in a mosaic mode. Each frame is then converted to 3D with the first two dimensions index the location of each pixel, and the third dimension indexes the band number (code provided).  For the RedNIR data, please drop out the last band which contains only zero values. 
+                        False-color videos generated from the hyperspectral videos are also provided. The first frames of testing dataset are  as follows:</p>
                     </article>
   <article class="row post">  
 <style>
@@ -145,7 +146,7 @@ tr.name td {
 
                         <article class="row post">
                         <h5>Dataset and Source Code Links</h5>
-                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/1mhUd5nX6XfN9CDLHctQKqI9dPDyMq0Hz?usp=sharing" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a 
+                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/1mhUd5nX6XfN9CDLHctQKqI9dPDyMq0Hz?usp=sharing" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Dropbox</a> or <a 
                             id= "baidu" href="https://pan.baidu.com/s/1FY2L6L9SDKw-V-bUkuosSA" onclick="_hmt.push(['_trackEvent', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: n616</p>
                          <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>
 
@@ -155,7 +156,7 @@ tr.name td {
 
 
                         <h5>Testing Dataset</h5>
-                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/10YZu_wMvYsnJ6y6GO72jgSrjA-24HIam?usp=sharing" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a 
+                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/10YZu_wMvYsnJ6y6GO72jgSrjA-24HIam?usp=sharing" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Dropbox</a> or <a 
                             id= "baidu" href="https://pan.baidu.com/s/1rYyH7RE_TDcodKQ8WvuWDQ" onclick="_hmt.push(['_trackEvent', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: 1234</p>
                                             
 
@@ -170,10 +171,13 @@ tr.name td {
                         <h6 style="font-size: 20px;font-style: italic;">Camera Calibration</h6>            
                         <p class="post-body">The camera calibration process involves two steps: dark calibration and spectral correction. Dark calibration aims to remove the influence of noise produced by the camera sensor. It is done by subtracting a dark frame from the captured image, for which the dark frame was captured with lens covered by a cap. The goal of spectral calibration is to reduce the distortion of spectral responses. It is done by applying a sensor-specific spectral correction matrix on the measurement in each pixel. The 16 band images of the corrected hyperspectral data cube are saved as 2D frames with the 16 bands arranged again in a mosaic mode. 
                         </p>
-                       <h6 style="font-size: 20px;font-style: italic;">Image Registration</h6>            
-                        <p class="post-body">The hyperspectral sequences and color sequences are registered to make them describe almost the same scene. This is done by manually selecting matching points in the first frame of both hyperspectral and color videos and then calculating geometrical transformation. The resulted transformation matrix was applied to all subsequent color frames to make alignment with the corresponding hyperspectral frames.</p>     
+                       <!-- <h6 style="font-size: 20px;font-style: italic;">Image Registration</h6>            
+                        <p class="post-body">The hyperspectral sequences and color sequences are registered to make them describe almost the same scene. This is done by manually selecting matching points in the first frame of both hyperspectral and color videos and then calculating geometrical transformation. The resulted transformation matrix was applied to all subsequent color frames to make alignment with the corresponding hyperspectral frames.</p>   -->   
                        <h6 style="font-size: 20px;font-style: italic;">Image Conversion</h6>            
-                        <p class="post-body">To ensure fair comparison, the hyperspectral videos were converted to false color videos using CIE color matching functions. This produces strictly spatially aligned hyperspectral and false-color videos.</p>
+                        <p class="post-body">To ensure fair comparison, the hyperspectral videos were converted to false-color videos using CIE color matching functions. This produces strictly spatially aligned hyperspectral and false-color videos.</p>
+
+                        <p class="post-body">It is important to note that the spectral reflectance of an object may not necessarily match its actual physical reflectance due to the absence of certain calibration procedures, such as white calibration. However, despite this limitation, the spectral differences between different objects still play a significant role in improving recognition performance.</p>
+
 
                      <p class="post-body">
                      For details on the above steps, please refer to: F. Xiong, J. Zhou, and Y. Qian. "Material based object tracking in hyperspectral videos", IEEE Trans. Image Process., vol. 29, no. 1, pp. 3719-3733, 2020.</p>                                               
@@ -184,7 +188,7 @@ tr.name td {
                     </article>    
                      <article class="row post">
                        <h5>Attributes</h5>      
-                        <p class="post-body">The whole dataset contains 40 sets of videos for training and 35 sets of videos for testing. Every video is labelled with associated challenging factors out of eleven attributes, including illumination variation, scale variation, occlusion , deformation, motion blur, fast motion, in-plane rotation, out-of-plane rotation, out-of-view , background clutters, and low resolution.</p>                                               
+                        <p class="post-body">The whole dataset contains 95 sets of videos for training and 77 sets of videos for validation. Every video is labelled with associated challenging factors out of eleven attributes, including illumination variation, scale variation, occlusion, deformation, motion blur, fast motion, in-plane rotation, out-of-plane rotation, out-of-view , background clutters, and low resolution.</p>                                               
                     </article>    
         </div>
             <div class="col-lg-10 col-lg-offset-0">   
@@ -199,6 +203,8 @@ tr.name td {
                         <li>The same model hyper-parameters shall be used for all the sequences.
                         </li>
                         <li>The tracking results contain a sequence of bounding boxes for each frame.
+                        </li>
+                        <li>It is suggested to use a single model to handle HSVs with different numbers of bands. 
                         </li>
                       </ul>
                        </p>

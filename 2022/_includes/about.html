@@ -1,0 +1,36 @@
+<!-- About Section -->
+<section id="about" class="about">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <!-- <h4>{{ site.aboutTitle }}</h4> -->
+            <p style="text-align:justify;">Object tracking is an active research topic in computer vision and pattern recognition. We have witnessed significant progress on this topic over the past several years, with approaches moving from hand-crafted features to deep learning families. Nevertheless, tracking in grayscale or color videos has its intrinsic limitations in depicting physical properties of targets, especially reflectance of materials. It makes trackers vulnerable in complex scenarios with cluttered background and significant object shape changes. This problem can be effectively addressed by object tracking in hyperspectral videos which provide joint spectral, spatial, and temporal information, enabling computer vision system to perceive the materials of the objects besides the shape, texture, and semantic relationship of objects.</p>
+
+        <p style="text-align:justify;">In 2022, we organize The Second Hyperspectral Object Tracking Challenge  with the <a href="https://www.ieee-whispers.com/">12th Workshop on Hyperspectral Image and Signal Processing: Evolution in Remote Sensing (WHISPERS)</a>. The goal of this contest is to boost the research on hyperspectral object tracking. A frame-by-frame labelled dataset with 40 training videos and 35 validation videos is provided. Moreover, we also provide 40 unlabelled hyperspectral videos as a testing set for ranking purpose. The dataset will be released on 25 June, 2022. Each video contains hyperspectral data, RGB data, and false-color data generated from the hyperspectral data. We also provide the codes and results of a number of tracking methods as baseline results.</p>
+
+
+
+        <p style="text-align:justify;"><span style="color:blue;font-weight: 500;">All participants are required to submit a report to the WHISPERS paper review system under "the challenge：hyperspectral object tracking challenge" track. Please email the tracking results on the unlabeled testing set to fcxiong@njust.edu.cn and also  cc to   bearshng@gmail.com. </span> A special session will be organised for all accepted papers which will also be included in the WHISPERS proceedings. </p>
+
+
+        <p style="text-align:justify;"><span style="color:blue;font-weight: 500;">A special issue <a href="https://www.mdpi.com/journal/remotesensing/special_issues/5XYEWKIY2R">"Hyperspectral Object Tracking" </a>has been set up for this challenge. </span> This special issue provides a further opportunity to bring together the global research community actively involved in this field and highlights ongoing investigations and new applications of hyperspectral video data and tools in this filed. <span style="color:blue;font-weight: 500;">The top three teams are offered a 100%, 50%, and 30% discount for the article processing charge.</span>  </p>
+
+           <!--  <div class="row about-details">
+                {% assign animationDelay = 0 %}
+                {% for about in site.aboutBlock %}
+                {% assign colWidth = 12 | divided_by: forloop.length %}
+                <div class="col-md-{{ colWidth }} col-xs-6">  
+                    <div class="animated hiding" data-animation="fadeInDown" data-delay="{{ animationDelay }}">
+                        <h5>{{ about.title }}</h5>
+                        <img class="img-circle" src="{{ site.baseurl }}/img/about-section/{{ about.image }}" height="128" width="128" alt="{{ about.title }}">
+                        <p>{{ about.text }}</p>
+                    </div>
+                </div>
+                {% assign animationDelay = animationDelay | plus:500 %}
+                {% assign check = forloop.index | modulo:2 %}
+                {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
+                {% endfor %}
+            </div> -->
+        </div>
+    </div>
+</section>
+<!-- End About Section -->
