@@ -1,0 +1,28 @@
+- 
+  id: 0
+  name: "First Place"
+  surname: "Zhenqi Liu, Xinyu Wang, Meng Shu, Guanzhong Li, Ziying Liu and  Yanfei Zhong"
+  title: "AN ANCHOR-FREE SIAMESE TARGET TRACKING NETWORK FOR HYPERSPECTRAL VIDEO"
+  thumbnailUrl: hot2020-1.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 1
+  name: "Second Place"
+  surname: "Zhuanfeng Li, Xinhai Ye, Fengchao Xiong, Jianfeng Lu, Jun Zhou and Yuntao Qian"
+  title: "SPATIAL-SPECTRAL-TEMPORAL ATTENTION NETWORK FOR HYPERSPECTRAL TRACKING"
+  thumbnailUrl: hot2020-2.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
