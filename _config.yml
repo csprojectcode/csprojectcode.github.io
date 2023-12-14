@@ -46,6 +46,8 @@ navigationLinks:
  # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/contest/", text: "Contest"}
  - {permalink: "/result/", text: "Results"}
+ - {permalink: "/hot2022/", text: "HOT2022"}
+ - {permalink: "/hot2020/", text: "HOT2020"}
  # - {permalink: "/speakers/", text: "Speakers"}
  # - {permalink: "/team/", text: "Team"}
  # - {permalink: "/logistics/", text: "Logistics"}
@@ -83,6 +85,15 @@ prizes:
  - {title: "First Place", image: "first.png", info: "1500 EUR"}
  - {title: "Third Place", image: "third.png", info: "500 EUR"}
 prizesImage: "award2.jpeg"
+
+
+awardsTitle: "Awards"
+awards:
+ - {title: "First Place", paper: "HSPTRACK: HYPERSPECTRAL  SEQUENCE PREDICTION TRACKER WITH TRANSFORMERS", authors: "Ye Wang, Yuheng Liu, Mingyang Ma, Yuru Su and Shaohui Mei",info: "Northwestern Polytechnical University, Xi'an Jiaotong University" }
+ - {title: "Second Place", paper: "Multi-Band Hyperspectral Object Tracking: Leveraing Spectral Information Prompts and Spectral Scale-Aware Representation", authors: " Hongjiao Liu, Jiayue He, Jinpeng Wang, Nan Su, Chunhui Zhao, Yiming Yan, Shou Feng, Ze Liu, Jianfei Liu and      Zilong Zhao
+",info: "Harbin Engineering University"}
+ - {title: "Third Place", paper: "VISUAL PROMPT FOR HYPERSPECTRAL OBJECT TRACKING", authors: "Simiao Lai, Dong Wang and Huchuan Lu",info: "Dalian University of  Technology"}
+awardsImage: "2023-back.jpg"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
 rockstarSpeakersCount: 8

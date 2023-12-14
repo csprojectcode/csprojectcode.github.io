@@ -1,0 +1,19 @@
+<!-- Prizes Section -->
+<section id="prizes" class="prizes" style="background-color: #eaf0f5;">
+    <div class="content-wrapper">
+        <div class="col-md-8 col-md-offset-2">
+            <h4>{{ site.awardsTitle }}</h4>
+            {% for prize in site.awards %}
+            {% assign colWidth = 36 | divided_by: forloop.length %}
+            <!-- {% assign check = forloop.index | modulo:2 %} -->
+            <div class="prize col-md-{{ colWidth }}  animated hiding" data-animation="{% if forloop.index == 1 %}fadeInLeft{% elsif forloop.index == forloop.length %}fadeInRight{% else %}fadeInDown{% endif %}" data-delay="{% if check == 0 %}0{% else %}500{% endif %}">
+                    <p style="font-size: 20pt; font-weight: bold;">{{prize.title }}</p>
+                   <p style="font-size: 20pt">Paper: {{ prize.paper }}</p>
+                  <p style="font-size: 20pt">Authors: {{ prize.authors }}</p>
+                <p style="font-size: 20pt">Institute:{{ prize.info }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- End Prizes Section -->

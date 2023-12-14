@@ -1,5 +1,23 @@
 - 
   id: 1
+  name: "Jun"
+  surname: "Zhou"
+  company: "Griffith University, </br> Australia"
+  title: "Professor"
+  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
+  thumbnailUrl: jun.jpg
+  rockstar: true
+- 
+  id: 2
+  name: "Fengchao"
+  surname: "Xiong"
+  company: "Nanjing University of Science and Technology, </br>China"
+  title: "Professor"
+  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
+  thumbnailUrl: Fengchao.jpg
+  rockstar: true
+-
+  id: 10
   name: "Jocelyn"
   surname: "Chanussot"
   company: "Grenoble Institute of Technology, </br> France"
@@ -56,58 +74,12 @@
   # social: 
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 5
-  name: "Mina"
-  surname: "Zahiri"
-  company: "IMEC, </br> Belgium"
-  title: "Program Manager imec Hyperspectral Imaging"
-  bio: "Program Manager imec Hyperspectral Imaging"
-  thumbnailUrl: mina.jpeg
-  rockstar: true
+  
   # ribbon: 
   #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
   # social: 
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 6
-  name: "Hiep"
-  surname: "Quang Luong"
-  company: "Gent University, </br> Belgium"
-  title: "Professor"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: heip.jpeg
-  rockstar: true
-  # ribbon: 
-  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  # social: 
-  #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-  #   - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 7
-  name: "Fengchao"
-  surname: "Xiong"
-  company: "Nanjing University of Science and Technology, </br>China"
-  title: "Professor"
-  bio: "Mateusz is an Android GDE and GDG organizer. Works as Android Developer for Base CRM where he uses his android-abracadabras to make enterprise software users more productive."
-  thumbnailUrl: Fengchao.jpg
-  rockstar: true
-  # ribbon: 
-  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  # social: 
-  #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-  #   - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 8
-  name: "Jun"
-  surname: "Zhou"
-  company: "Griffith University, </br> Australia"
-  title: "Professor"
-  bio: "Dawid is true technology enthusiast, who loves to work in areas where humans and machines meet to create amazing new products and services. He is experienced program manager with strong technical background, who is able to establish priorities for complex projects and execute across multiple organizations, according to long-term objectives. Dawid has worked in Poland, USA, Germany, Belgium and The Netherlands and truly values diversity of international working environment. His most visible characteristics are individualization (when dealing directly with people), ideation&intellection (inexhaustible source of new concepts) and strong communication (experienced trainer, community manager). He is also an activator constantly impatient for action."
-  thumbnailUrl: jun.jpg
-  rockstar: true
+
  

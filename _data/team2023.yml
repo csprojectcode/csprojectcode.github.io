@@ -1,11 +1,10 @@
 - 
   id: 0
   name: "First Place"
-  surname: "Nan Su, Hongjiao Liu, Chunhui Zhao, Yiming Yan, Jinpeng Wang and 
-Jiayue He"
-  title: "A TRANSFORMER-BASED THREE-BRANCH SIAMESE NET-
-WORK FOR HYPERSPECTRAL OBJECT TRACKING"
-  thumbnailUrl: hot2022-1.png
+  surname: "Ye Wang, Yuheng Liu, Mingyang Ma, Yuru Su and Shaohui Mei"
+  title: "HSPTRACK: HYPERSPECTRAL SEQUENCE PREDICTION TRACKER WITH TRANSFORMERS"
+  thumbnailUrl: hot2023-1.png
+  codeUrl: ""
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
@@ -17,11 +16,10 @@ WORK FOR HYPERSPECTRAL OBJECT TRACKING"
 - 
   id: 1
   name: "Second Place"
-  surname: "Ye Wang, Yuheng Liu, Ge Zhang, Yuru Su, Shun Zhang and Shaohui 
-Mei"
-  title: "SPECTRAL-SPATIAL-AWARE TRANSFORMER FUSION 
-NETWORK FOR HYPERSPECTRAL OBJECT TRACKING"
-  thumbnailUrl: hot2022-2.png
+  surname: "Hongjiao Liu, Jiayue He, Jinpeng Wang, Nan Su, Chunhui Zhao, Yiming Yan, Shou Feng, Ze Liu, Jianfei Liu and Zilong Zhao"
+  title: "Multi-Band Hyperspectral Object Tracking: Leveraging Spectral Information Prompts and Spectral Scale-Aware representation"
+  thumbnailUrl: hot2023-2.png
+  codeUrl: ""
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
@@ -30,10 +28,11 @@ NETWORK FOR HYPERSPECTRAL OBJECT TRACKING"
     - {name: "github", link: "https://github.com/ozasadnyy"}
 - 
   id: 2
-  name: "Ostap"
-  surname: "Andrusiv"
-  title: "Sponsors and Speakers Manager"
-  thumbnailUrl: hot2022-3.png
+  name: "Third Place"
+  surname: "Simiao Lai, Dong Wang and Huchuan Lu"
+  title: "VISUAL PROMPT FOR HYPERSPECTRAL OBJECT TRACKING"
+  thumbnailUrl: hot2023-3.png
+  codeUrl: "https://github.com/laisimiao/ViPT_HOT2023"
   team: true
   ribbon: 
     - {abbr: "GDG", title: "Google Developer Group"}
