@@ -67,7 +67,7 @@ layout: compress
                     if ($(window).width() > 767) {
                         $("#typeout-text").typed({
                             strings: [{{site.typeoutTextValues}}],
-                            typeSpeed: 150,
+                            typeSpeed: 1500,
                             backDelay: 50,
                             loop: true
                         });
@@ -84,16 +84,16 @@ layout: compress
                 if(rockstarSpeakers.length > 0) {
                     var animationDelay = 1500,
                         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-                       colWidth = 12/(count/2);
+                       colWidth = Math.round(12/(count/3));
                      for(i=0; i<count; i++) {
                         var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if (i==count/2){
+                        if (i==Math.round(count/3)){
                             clearfix = '<div class="clearfix"></div>';
                         }
                         if ((i)%2 != 0) {
                             clearfix = ""
                         }
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-8 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                        $('#rockstar-speaker-title').after('<div class="col-md-'+ 4 +' col-xs-8 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
                         animationDelay -= 500;
                     }
                     
