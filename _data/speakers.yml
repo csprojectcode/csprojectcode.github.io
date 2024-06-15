@@ -58,6 +58,18 @@
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
   id: 5
+  name: "Rafal"
+  surname: "Muszynski"
+  company: "Ghent University, </br> Belgium"
+  title: "Program Manager imec Hyperspectral Imaging"
+  bio: "Program Manager imec Hyperspectral Imaging"
+  thumbnailUrl: Rafal.jpeg
+  rockstar: true
+
+
+
+- 
+  id: 6
   name: "Mina"
   surname: "Zahiri"
   company: "IMEC, </br> Belgium"
@@ -72,7 +84,7 @@
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
-  id: 6
+  id: 7
   name: "Hiep"
   surname: "Quang Luong"
   company: "Gent University, </br> Belgium"
@@ -88,7 +100,7 @@
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 
 - 
-  id: 7
+  id: 8
   name: "Jun"
   surname: "Zhou"
   company: "Griffith University, </br> Australia"
@@ -97,7 +109,7 @@
   thumbnailUrl: jun.jpg
   rockstar: true
 - 
-  id: 8
+  id: 9
   name: "Fengchao"
   surname: "Xiong"
   company: "Nanjing University of Science and Technology, </br>China"
