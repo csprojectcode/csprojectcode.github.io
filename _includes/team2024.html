@@ -7,7 +7,7 @@
         </div> -->
         <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Winners</h4>
-            {% for teamMember in site.data.team2023 %} {% if teamMember.team != null %}
+            {% for teamMember in site.data.team2024 %} {% if teamMember.team != null %}
             <div class="effect-wrapper col-md-4 col-sm-6 col-xs-12 cols-centered appear-animation">
                 <div class="zoe-effect" data-toggle="modal" data-target="#speakerDetail-{{ teamMember.id }}">
                     <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/hackathon/' | append: teamMember.thumbnailUrl }})">
@@ -33,20 +33,9 @@
         </div>
         <div class="col-lg-10 col-lg-offset-1 text-left">
             <!-- <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Data Link</h4> -->
-            <h5 class="text-center">Dataset and Source Code Links</h5>
-                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/1KqkOFdtDBvgLLvjyJd8TnAYybJ_KoL80?dmr=1&ec=wgc-drive-globalnav-goto" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a 
-                            id= "baidu" href="https://pan.baidu.com/s/1xn8gsA1b8RpBcMNs5IVQxA', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: 2023</p>
-                         <p class="post-body"><strong>Evaluation code</strong>: <a href="/assets/code/Evaluation.zip">Evaluation.zip</a></p> <p class="post-body"><strong>2D image to hyperspectral cube conversion code</strong>: <a href="/assets/code/X2Cube.zip">X2Cube.zip</a></p>
-
-                            <p class="post-body"><strong>Python code for X2Cube and Evaluation
-                            <a href="/assets/code/HyperTools.py">HyperTools.py</a> 
-                         </strong></p>  
-
-
-                        <h5 class="text-center">Testing Dataset</h5>
-                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://drive.google.com/drive/folders/1KqkOFdtDBvgLLvjyJd8TnAYybJ_KoL80?dmr=1&ec=wgc-drive-globalnav-goto" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a 
-                            id= "baidu" href="https://pan.baidu.com/s/1xn8gsA1b8RpBcMNs5IVQxA" onclick="_hmt.push(['_trackEvent', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: 2023</p>
-        </div>
+             <h5>Dataset and Source Code Links</h5>
+                        <p class="post-body"><strong>Dataset Link</strong>: the dataset can be accessed via <a id= "google" href="https://www.dropbox.com/scl/fo/863n1bvr3cuxtkke8sjwn/ABpmWVf3RgqCN4qqbyC7SgU?rlkey=u5ey9kjpb7x62g7hnctm3t6mk&st=fefopiue&dl=0" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Dropbox</a> or <a id= "google" href="https://drive.google.com/drive/folders/1jZbSZasnDat9qUq_hGFEpla0vhLKpIRT?usp=drive_link" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">Google Drive</a> or <a id= "google" href="https://hsivideodata.z6.web.core.windows.net/" onclick="_hmt.push(['_trackEvent', 'datasetGoogle', 'click', 'datasetGoogle'])">IMEC Server </a> or <a 
+                            id= "baidu" href="https://pan.baidu.com/s/1S4BU4djPUJVcl6X76WUx3A" onclick="_hmt.push(['_trackEvent', 'datasetBaidu', 'click', 'datasetBaidu'])">Baidu YunPan</a> Access code: 4u60</p> 
         <!-- <div class="col-lg-10 col-lg-offset-1 text-center">
             <h4 class="text-left animated hiding appear-animation-trigger" data-animation="fadeInUp" data-delay="0">Program committee</h4>
             {% for teamMember in site.data.team %} {% if teamMember.subTeam != null %}

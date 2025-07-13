@@ -1,0 +1,63 @@
+- 
+  id: 0
+  name: "First Place"
+  surname: "Wangquan He, Qi Ren, Hongtao Zhang, Ziqian Mo, Nanying Li, Meng Xu and Sen Jia"
+  title: "DeSAM2: Detection-driven SAM2 for Hyperspectral Object Tracking"
+  thumbnailUrl: hot2024-1.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 1
+  name: "Second Place"
+  surname: "Langkun Chen, Yunhe Zhang, Yuze Ke, Long Gao and Weiying Xie"
+  title: "Hyperspectral Object Tracking with Low-Rank Adaptation"
+  thumbnailUrl: hot2024-2.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
+- 
+  id: 2
+  name: "Third Place"
+  surname: "Zixuan Qian, ZongmingLi, Bin Feng, Wenyu Liu, XinggangWang"
+  title: "Track Hyperspectral Videos via Segment Anything Model 2"
+  thumbnailUrl: hot2024-3.png
+  codeUrl: "https://github.com/laisimiao/ViPT_HOT2023"
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
+- 
+  id: 4
+  name: "Dmytro"
+  surname: "Danylyk"
+  title: "Android Program Committee"
+  thumbnailUrl: DmytroDanylyk.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+- 
+  id: 7
+  name: "Valentyn"
+  surname: "Shybanov"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: ValentynShybanov.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}

@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Hyperspectral Object Tracking Challenge 2024"
+title: "Hyperspectral Object Tracking Challenge 2025"
 email: "fcxiong@njust.edu.cn"
-description: "Hyperspectral Object Tracking Challenge 2024"
+description: "Hyperspectral Object Tracking Challenge 2025"
 baseurl: ""
 url: "https://www.hsitracking.com"
 permalink: "/blog/:title"
@@ -46,6 +46,7 @@ navigationLinks:
  # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/contest/", text: "Contest"}
  - {permalink: "/result/", text: "Results"}
+ - {permalink: "/hot2024/", text: "HOT2024"}
  - {permalink: "/hot2023/", text: "HOT2023"}
  - {permalink: "/hot2022/", text: "HOT2022"}
  - {permalink: "/hot2020/", text: "HOT2020"}
@@ -59,10 +60,10 @@ rightNavigationButtons:
  - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
 
 # Hero Block
-heroImage: "heili.jpeg"
-heroTitle: "Hyperspectral Object Tracking Challenge 2024"
-eventDate: "Dec. 9-Dec. 11, 2024"
-eventPlace: "Helsinki, Finland"
+heroImage: "barcelona.jpg"
+heroTitle: "Hyperspectral Object Tracking Challenge 2025"
+eventDate: "Nov. 12-Nov. 14, 2025"
+eventPlace: "Barcelona, Spain"
 typeoutTextValues: '"", ""'
 typeoutFallback: "Ukraine"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
@@ -108,9 +109,9 @@ rockstarSpeakersButtonText: ""
 
 # Venue Block
 venueBlockTitle: "Venue"
-venueBigImage: "venue_roma_1.png"
-venueSmallImage1: "venue_roma_2.jpeg"
-venueSmallImage2: "venue_roma_3.jpeg"
+venueBigImage: "venue_spain_1.jpg"
+venueSmallImage1: "venue_spain_2.jpg"
+venueSmallImage2: "venue_spain_3.jpg"
 venueTitle: "Kinopalace Cinema"
 venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
 
