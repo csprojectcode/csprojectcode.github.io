@@ -4,7 +4,7 @@
 <div class="col-md-10 col-sm-10 col-lg-offset-2 col-md-offset-0 col-sm-offset-2">
             <div class="col-lg-10 col-lg-offset-0">
                     <article class="row post">
-                        <p class="post-body">The following is a set of baseline results from different methods. These results were obtained without using the training set. Only the first frame of the each testing sequence was used to estimate key parameters if needed. Please refer to [1] for details. Please refer to the contest page for related codes.</p>
+                        <p class="post-body">The following is a set of baseline methods from different methods. These results were obtained without using the training set. Only the first frame of the each testing sequence was used to estimate key parameters if needed. Please refer to [1] for details. Please refer to the contest page for related codes.</p>
                     </article>
                     <article class="row post">      
  <style>
@@ -40,17 +40,14 @@ table.dataintable tr:nth-child(even) {
     background-color:#fff;
 }
     </style>
-    <table width="95%" class="dataintable" align="center">
+  <!--   <table width="95%" class="dataintable" align="center">
                         <tr>
                         <th colspan="3">False-color/Hyperspectral videos</th>
-                        <!-- <th colspan="3">Color videos</th> -->
                         </tr>                       
                         <tr>
                         <td class="tracker">Tracker</td>
                         <td>AUC</td>
-                        <td>DP@20pixels</td>
-                  <!--       <td>AUC</td>
-                        <td>DP@20pixels</td>    -->                     
+                        <td>DP@20pixels</td>                    
                         </tr>
                         <tr> 
                         <td class="tracker"><a href="#xiong_1">MMF-Net [1]</a></td>
@@ -82,7 +79,7 @@ table.dataintable tr:nth-child(even) {
                         <td class="tracker"><a href="#helios">HELIOS [6]</a></td>
                         <td>0.5770</td>
                         <td>0.7281</td>
-                        </tr>
+                        </tr> -->
                           <!-- <tr> 
                         <td class="tracker"><a href="#stark">STARK [5]</a></td>
                         <td>0.557</td>
@@ -164,17 +161,17 @@ table.dataintable tr:nth-child(even) {
                         <td>0.5775</td>
                         <td>0.8565</td>
                         </tr>   -->                         
-                    </table>  
+                    <!-- </table>   -->
         <h6 style="white-space: normal; margin-top: 30px;"><span style="text-indent: 0; ">References</span>
              </h6>
 
             <div class="conTxt" style="">
             <ul>
             <p style="white-space: normal; text-indent: 0em;">
-            <p name="xiong_1">[1] Z. Li, F. Xiong, J. Zhou, J. Lu, Z. Zhao and Y. Qian, "Material-Guided Multiview Fusion Network for Hyperspectral Object Tracking,"  IEEE Transactions on Geoscience and Remote Sensing, vol. <a href="https://github.com/hscv/MMF-Net" style="font-weight: 500;">code</a> &nbsp<a href="/assets/results/MMF-Net.zip" style="font-weight: 500;">Results</a></p> </p>
+            <p name="xiong_1">[1] Z. Li, F. Xiong, J. Zhou, J. Lu, Z. Zhao and Y. Qian, "Material-Guided Multiview Fusion Network for Hyperspectral Object Tracking,"  IEEE Transactions on Geoscience and Remote Sensing, vol. <a href="https://github.com/hscv/MMF-Net" style="font-weight: 500;">code</a> &nbsp</p> </p>
              
             <p style="white-space: normal; text-indent: 0em;">
-            <p name="siamban">[2] Zhu J, Lai S, Chen X, et al. Visual prompt multi-modal tracking[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023: 9516-9526.  <a href="https://github.com/jiawen-zhu/ViPT" style="font-weight: 500;">code</a> &nbsp<a href="/assets/results/ViPT.zip" style="font-weight: 500;">Results</a></p>
+            <p name="siamban">[2] Zhu J, Lai S, Chen X, et al. Visual prompt multi-modal tracking[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2023: 9516-9526.  <a href="https://github.com/jiawen-zhu/ViPT" style="font-weight: 500;">code</a> &nbsp</p>
             </p>
              
 
@@ -184,16 +181,17 @@ table.dataintable tr:nth-child(even) {
             filters for visual tracking,” in Proc. IEEE Int. Conf. Comput. Vis. (ICCV), 2015, pp. 4310–4318.</p>
             </p>
               -->
-            <p style="white-space: normal; text-indent: 0em;">
-                        <p name="siamcar">[3] Y. Wu, L. Jiao, X. Liu, F. Liu, S. Yang and L. Li, "Domain Adaptation-aware Transformer for Hyperspectral Object Tracking," in IEEE Transactions on Circuits and Systems for Video Technology.  <a href="https://github.com/LianYi233/Trans-DAT" style="font-weight: 500;">code</a>&nbsp<a href="/assets/results/TransDAT.zip" style="font-weight: 500;">Results</a></p> 
-            </p>
              
-            <p style="white-space: normal; text-indent: 0em;">
-            <p name="siamgat">[4] Y. Chen, Q. Yuan, Y. Tang, Y. Xiao, J. He and L. Zhang, "SPIRIT: Spectral Awareness Interaction Network With Dynamic Template for Hyperspectral Object Tracking," in IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-16, 2024.  <a href="https://github.com/YZCU/SPIRIT" style="font-weight: 500;">code</a>&nbsp<a href="/assets/results/SPIRIT.zip" style="font-weight: 500;">Results</a></p>
+            <p name="siamgat">[3] Y. Chen, Q. Yuan, Y. Tang, Y. Xiao, J. He and L. Zhang, "SPIRIT: Spectral Awareness Interaction Network With Dynamic Template for Hyperspectral Object Tracking," in IEEE Transactions on Geoscience and Remote Sensing, vol. 62, pp. 1-16, 2024.  <a href="https://github.com/YZCU/SPIRIT" style="font-weight: 500;">code</a>&nbsp</p>
             </p>
-            <p name="see">[5] Z. Li, F. Xiong, J. Zhou, J. Lu and Y. Qian, "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking," in IEEE Transactions on Image Processing, vol. 32, pp. 2901-2914, 2023, doi: 10.1109/TIP.2023.3263109.  <a href="https://github.com/hscv/SEE-Net" style="font-weight: 500;">code</a>&nbsp<a href="/assets/results/SEE-Net.zip" style="font-weight: 500;">Results</a></p>
-                <p name="helios">[6] R. Muszyński and H. Luong, "Helios: Hyperspectral Hindsight Ostracker," 2023 13th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Athens, Greece, 2023, pp. 1-5, doi: 10.1109/WHISPERS61460.2023.10430711.  <a href="https://github.com/ramusz1/helios" style="font-weight: 500;">code</a>&nbsp<a href="/assets/results/helios_validation_2024.zip" style="font-weight: 500;">Results</a></p>
+            <p name="see">[4] Z. Li, F. Xiong, J. Zhou, J. Lu and Y. Qian, "Learning a Deep Ensemble Network With Band Importance for Hyperspectral Object Tracking," in IEEE Transactions on Image Processing, vol. 32, pp. 2901-2914, 2023, doi: 10.1109/TIP.2023.3263109.  <a href="https://github.com/hscv/SEE-Net" style="font-weight: 500;">code</a>&nbsp</p>
+                <p name="helios">[5] R. Muszyński and H. Luong, "Helios: Hyperspectral Hindsight Ostracker," 2023 13th Workshop on Hyperspectral Imaging and Signal Processing: Evolution in Remote Sensing (WHISPERS), Athens, Greece, 2023, pp. 1-5, doi: 10.1109/WHISPERS61460.2023.10430711.  <a href="https://github.com/ramusz1/helios" style="font-weight: 500;">code</a>&nbsp</p>
                         </p>
+
+  <p name="helios">[6] Li Z, Xiong F, Lu J, et al. Multi-domain universal representation learning for hyperspectral object tracking[J]. Pattern Recognition, 2025, 162: 111389.  <a href="https://github.com/hscv/DaSSP-Net" style="font-weight: 500;">code</a>&nbsp</p>
+                        </p>
+
+
                                    
              
           <!--   <p style="white-space: normal; text-indent: 0em;">
