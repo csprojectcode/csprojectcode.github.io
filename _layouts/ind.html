@@ -82,18 +82,16 @@ layout: compress
                 ];
                 rockstarSpeakers.sort(function() {return 0.5});
                 if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1500,
-                        count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
-                       colWidth = Math.round(12/(count/3));
+                      var animationDelay = 1500,
+                          count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length);
+                      var itemsPerRow = Math.ceil(count / 2); 
+                      var colWidth = Math.floor(12 / itemsPerRow); 
+                      if (colWidth < 1) colWidth = 1; 
                      for(i=0; i<count; i++) {
-                        var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if (i==Math.round(count/3)){
-                            clearfix = '<div class="clearfix"></div>';
-                        }
-                        if ((i)%2 != 0) {
-                            clearfix = ""
-                        }
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ 4 +' col-xs-8 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                        var clearfix = '';
+                         if (i == itemsPerRow - 1) {
+            clearfix = '<div class="clearfix hidden-xs"></div>'; }
+                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-8 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>');
                         animationDelay -= 500;
                     }
                     
@@ -123,6 +121,28 @@ layout: compress
             
         {% endif %} 
     </script>
+    <!-- 把这段代码加在页面的任意位置（建议放在 head 标签里，或者 body 的最后） -->
+<style>
+    /* 1. 找到包裹演讲者的 row，强行让它里面的内容居中 */
+    #rockstar-speaker-title ~ .rockstar-speakers-item {
+        display: inline-block !important;
+        float: none !important;           /* 必须清除 Bootstrap 默认的靠左浮动 */
+        vertical-align: top;              /* 确保高度不一时顶部对齐 */
+        text-align: center;               /* 让头像和文字在列内部也居中 */
+        margin-bottom: 20px;              /* 顺手上下留个间距，防止两行粘在一起 */
+    }
+
+    /* 2. 让这些图片的父容器文字居中，从而带动 inline-block 的子项居中 */
+    #rockstar-speaker-title {
+        text-align: center;
+        width: 100%;                      /* 确保标题独占一行 */
+    }
+    
+    /* 如果你的大容器没有 text-center，可以直接控制它的父级 */
+    #rockstar-speaker-title + .rockstar-speakers-item {
+        /* 这会应用到所有动态插入的演讲者卡片上 */
+    }
+</style>
     <script src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/result/' %}
         <script type="text/javascript">

@@ -1,0 +1,63 @@
+- 
+  id: 0
+  name: "First Place"
+  surname: "Simiao Lai, Yang Liu, Dong Wang, and Huchuan Lu"
+  title: "SAM2LOCAL: ENHANCING SAM2 WITH LOCAL PERCEPTIONFOR HYPERSPECTRAL OBJECT TRACKING"
+  thumbnailUrl: hot2025-1.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+VitalikZasadnyy"}
+    - {name: "twitter", link: "https://twitter.com/zasadnyy"}
+    - {name: "github", link: "https://github.com/zasadnyy"}
+    - {name: "site", link: "http://zasadnyy.com/"}
+- 
+  id: 1
+  name: "Second Place"
+  surname: "Langkun Chen, Yunhe Zhang, Yuze Ke, Long Gao and Weiying Xie"
+  title: "HARMONY: ADAPTING SEGMENT ANYTHING MODEL FORHYPERSPECTRAL VIDEO TRACKING WITH MOTION-AWAREMEMORY"
+  thumbnailUrl: hot2025-2.png
+  codeUrl: ""
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OlehZasadnyy"}
+    - {name: "github", link: "https://github.com/ozasadnyy"}
+- 
+  id: 2
+  name: "Third Place"
+  surname: "Yuzeng Chen, Qiangqiang Yuan, Xin Su, and Liangpei Zhang"
+  title: "ADAPTING VISION FOUNDATION MODELS TO HYPERSPECTRALOBJECT TRACKING: A SAM2-BASED APPROACH"
+  thumbnailUrl: hot2025-3.png
+  codeUrl: "https://github.com/laisimiao/ViPT_HOT2023"
+  team: true
+  ribbon: 
+    - {abbr: "GDG", title: "Google Developer Group"}
+  social: 
+    - {name: "google-plus", link: "https://google.com/+OstapAndrusiv"}
+    - {name: "twitter", link: "https://twitter.com/p1f"}
+    - {name: "site", link: "http://andrusiv.com/"}
+- 
+  id: 4
+  name: "Dmytro"
+  surname: "Danylyk"
+  title: "Android Program Committee"
+  thumbnailUrl: DmytroDanylyk.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DmytroDanylyk"}
+    - {name: "twitter", link: "https://twitter.com/dmytrodanylyk"}
+    - {name: "github", link: "https://github.com/dmytrodanylyk"}
+- 
+  id: 7
+  name: "Valentyn"
+  surname: "Shybanov"
+  title: "Web and Cloud Program Committee"
+  thumbnailUrl: ValentynShybanov.jpg
+  subTeam: true
+  social: 
+    - {name: "google-plus", link: "https://google.com/+ValentynShybanov"}
+    - {name: "site", link: "http://olostan.name/"}

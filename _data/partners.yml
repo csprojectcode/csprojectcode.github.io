@@ -14,10 +14,10 @@
 
 
 
-- 
-  group: "With support of"
-  elements: 
-    - {name: "IMEC Company", description: "IMEC Company", link: "https://www.imechyperspectral.com/en", imageUrl: "imec.png"}
+# - 
+#   group: "With support of"
+#   elements: 
+#     - {name: "IMEC Company", description: "IMEC Company", link: "https://www.imechyperspectral.com/en", imageUrl: "imec.png"}
     # - {name: "Remote Sensing", description: "Remote Sensing", link: "https://www.mdpi.com/journal/remotesensing/special_issues/5XYEWKIY2R", imageUrl: "remotesensing_partnership-01.png"}
 
     # - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
