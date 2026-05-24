@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "Hyperspectral Object Tracking Challenge 2025"
+title: "Hyperspectral Object Tracking Challenge 2026"
 email: "fcxiong@njust.edu.cn"
-description: "Hyperspectral Object Tracking Challenge 2025"
+description: "Hyperspectral Object Tracking Challenge 2026"
 baseurl: ""
 url: "https://www.hsitracking.com"
 permalink: "/blog/:title"
@@ -46,6 +46,7 @@ navigationLinks:
  # - {permalink: "/hackathon/", text: "Hackathon"}
  - {permalink: "/contest/", text: "Contest"}
  - {permalink: "/result/", text: "Results"}
+ - {permalink: "/hot2025/", text: "HOT2025"}
  - {permalink: "/hot2024/", text: "HOT2024"}
  - {permalink: "/hot2023/", text: "HOT2023"}
  - {permalink: "/hot2022/", text: "HOT2022"}
@@ -58,12 +59,12 @@ bottomNavigationLinks:
  - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
 rightNavigationButtons:
  - {link: "http://www.ieee-whispers.com/paper-submission/", text: "Submit your paper"}
-
+ 
 # Hero Block
-heroImage: "barcelona.jpg"
-heroTitle: "Hyperspectral Object Tracking Challenge 2025"
-eventDate: "Nov. 12-Nov. 14, 2025"
-eventPlace: "Bellaterra(Barcelona), Spain"
+heroImage: "scotland.jpg"
+heroTitle: "Hyperspectral Object Tracking Challenge 2026"
+eventDate: "Nov. 17 – Nov. 19 2026"
+eventPlace: "Glasgow, Scotland"
 typeoutTextValues: '"", ""'
 typeoutFallback: "Ukraine"
 # typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
@@ -98,7 +99,7 @@ awards:
 awardsImage: "2023-back.jpg"
 # Rockstar Speakers Block
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 9
+rockstarSpeakersCount: 7
 rockstarSpeakersTitle: "Organizers"
 rockstarSpeakersButtonText: ""
 # rockstarSpeakersCount2: 4

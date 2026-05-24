@@ -41,15 +41,15 @@
   # social: 
   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
   #   - {name: "twitter", link: "https://twitter.com/mherych"}
-- 
-  id: 4
-  name: "Wouter"
-  surname: "Charle"
-  company: "IMEC, </br> Belgium"
-  title: "Program Manager imec Hyperspectral Imaging"
-  bio: "Program Manager imec Hyperspectral Imaging"
-  thumbnailUrl: wouter.jpeg
-  rockstar: true
+# - 
+#   id: 4
+#   name: "Wouter"
+#   surname: "Charle"
+#   company: "IMEC, </br> Belgium"
+#   title: "Program Manager imec Hyperspectral Imaging"
+#   bio: "Program Manager imec Hyperspectral Imaging"
+#   thumbnailUrl: wouter.jpeg
+#   rockstar: true
   # ribbon: 
   #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
@@ -68,21 +68,21 @@
 
 
 
-- 
-  id: 6
-  name: "Mina"
-  surname: "Zahiri"
-  company: "IMEC, </br> Belgium"
-  title: "Program Manager imec Hyperspectral Imaging"
-  bio: "Program Manager imec Hyperspectral Imaging"
-  thumbnailUrl: mina.jpeg
-  rockstar: true
-  # ribbon: 
-  #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
-  #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
-  # social: 
-  #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
-  #   - {name: "twitter", link: "https://twitter.com/mherych"}
+# - 
+#   id: 6
+#   name: "Mina"
+#   surname: "Zahiri"
+#   company: "IMEC, </br> Belgium"
+#   title: "Program Manager imec Hyperspectral Imaging"
+#   bio: "Program Manager imec Hyperspectral Imaging"
+#   thumbnailUrl: mina.jpeg
+#   rockstar: true
+#   # ribbon: 
+#   #   - {abbr: "GDE", title: "Google Developer Expert", url: "https://developers.google.com/experts/"}
+#   #   - {abbr: "GDG", title: "Google Developer Group", url: "https://developers.google.com/groups/chapter/107562802227561437057/"}
+#   # social: 
+#   #   - {name: "google-plus", link: "https://plus.google.com/+MateuszHerych"}
+#   #   - {name: "twitter", link: "https://twitter.com/mherych"}
 - 
   id: 7
   name: "Hiep"
